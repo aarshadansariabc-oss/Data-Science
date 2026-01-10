@@ -16,7 +16,7 @@ print("Updated successful")
 
 for val in d:
     if val == "Department":
-        "Department" = "BCA"
+        d.update({"Department":"BCA"})
     print(val)
 
 
