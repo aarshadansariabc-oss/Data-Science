@@ -11,5 +11,6 @@ keys = d.keys()
 print(keys)
 
 d.update({"Country":"India"})
-
+d.update({"Fee":"pending"})
+print("Updated successful")
 print(d)
