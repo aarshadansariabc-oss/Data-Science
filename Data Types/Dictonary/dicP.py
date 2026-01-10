@@ -9,3 +9,7 @@ d = {
 
 keys = d.keys()
 print(keys)
+
+d.update({"Country":"India"})
+
+print(d)
