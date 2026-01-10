@@ -1,0 +1,11 @@
+d = {
+    "Name":"Ankit",
+    "S.N":32,
+    "Department":"Mca",
+    "Fee":"Paid",
+    "Phone No.":"898347938",
+    "Address":"Lucknow Kursi Road"
+}
+
+keys = d.keys()
+print(keys)
