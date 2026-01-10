@@ -15,7 +15,9 @@ d.update({"Fee":"pending"})
 print("Updated successful")
 
 for val in d:
+    if val == "Department":
+        "Department" = "BCA"
     print(val)
 
-    
+
 print(d)
