@@ -13,4 +13,9 @@ print(keys)
 d.update({"Country":"India"})
 d.update({"Fee":"pending"})
 print("Updated successful")
+
+for val in d:
+    print(val)
+
+    
 print(d)
