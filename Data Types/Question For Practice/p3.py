@@ -23,3 +23,9 @@ for name, course in info:
     
 
 print(dic)
+
+
+#output
+# {'Alice': {'Science', 'Math', 'English'},
+#   'Bob': {'Science', 'Math'},
+# 'Charlie': {'Math', 'English'}}
