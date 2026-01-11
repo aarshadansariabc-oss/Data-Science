@@ -1,6 +1,6 @@
 #Given a list of tuples with info(name, subject)
-#list students enrolled in english
 
+    # creare dictonary (student, set of courses)
 
 info = [
     ("Alice","Math"),
@@ -12,10 +12,14 @@ info = [
     ("Charlie","English")
 ]
 
-l = []
+dic = {}
 
 for name, course in info:
-    if course == "English":
-        l.append(name)
+    if dic.get(name) == None:
+        dic.update({name:set()})
+        dic[name].add(course)
+    else:
+        dic[name].add(course)
+    
 
-print(l)
+print(dic)
