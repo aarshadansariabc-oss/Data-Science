@@ -1,4 +1,4 @@
-#palindrome
+# palindrome
 
 val = input("Enter here : ")
 
