@@ -9,3 +9,7 @@ for wd in words:
 
 
 print(dic)
+
+
+#output
+# {'apple': 5, 'banana': 6, 'kiwi': 4, 'cherry': 6, 'mango': 5}
