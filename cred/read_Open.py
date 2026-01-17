@@ -1,2 +1,3 @@
 x = open('codes.txt')
-print(x.read())
+print(x.readline())
+x.close()
