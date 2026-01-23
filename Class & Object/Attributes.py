@@ -3,7 +3,7 @@ class Student:
     collage_name = "Integral University"
     PI = 3.14159
     def __init__(self,name, gpa):
-        self.name = name
+        self.name = name #instance
         self.gpa = gpa
         self.PI = 3.14
 

@@ -7,6 +7,7 @@ class Laptop:
         self.RAM = RAM
         self.storage = storage
 
+#class methods
     @classmethod
     def get_Storage_Type(cls):
         print(f"The Storage type is {cls.storage_type}")
