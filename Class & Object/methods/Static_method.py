@@ -7,7 +7,7 @@ class Laptop:
         self.RAM = RAM
         self.storage = storage
 
-    @classmethod
+    @classmethod #class methods
     def get_Storage_Type(cls):
         print(f"The Storage type is {cls.storage_type}")
 
@@ -15,7 +15,7 @@ class Laptop:
         print(
             f'laptop has : {self.RAM} RAM and storage is {self.storage} {self.storage_type}')
 
-    @staticmethod
+    @staticmethod #static methods
     def cal_price(price, discount):
         final_price = price - (discount*price/100)
         print(f"Laptop final price is {final_price}")
