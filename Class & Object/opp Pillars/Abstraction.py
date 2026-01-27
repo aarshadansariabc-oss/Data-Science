@@ -1,0 +1,1 @@
+#Abstraction -: Hiding internal details & showing only essential features

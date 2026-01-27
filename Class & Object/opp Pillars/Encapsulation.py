@@ -11,7 +11,7 @@ class Bank_Account:
     def get_Balance(self): #getter
         return self.__balance
     
-    def new_Balance(self,Add_Balance):
+    def new_Balance(self,Add_Balance): #setter
         self.__balance = Add_Balance
 
 
